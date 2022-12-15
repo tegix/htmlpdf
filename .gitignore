@@ -141,7 +141,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+
 
 # Gatsby files
 .cache/
@@ -221,3 +221,8 @@ package-lock.json
 .vscode
 src
 obfuscator.options.json
+
+# Local Netlify folder
+.netlify
+meta
+build
