@@ -144,7 +144,7 @@ out
 
 
 # Gatsby files
-.cache/
+.cach
 # Comment in the public line in if your project uses Gatsby and not Next.js
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
@@ -217,7 +217,7 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/node,windows,macos,linux
 package-lock.json
-./index.html
+.*.html
 .vscode
 src
 obfuscator.options.json
