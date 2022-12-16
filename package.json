@@ -7,7 +7,9 @@
     "build-dev": "tsc && javascript-obfuscator meta/ --output build/",
     "build-netlify": "tsc && javascript-obfuscator meta/ --output functions/",
     "dev": "nodemon ./src/server.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development ./node_modules/.bin/netlify-lambda serve functions",
+    "build": "NODE_ENV=production ./node_modules/.bin/netlify-lambda build functions"
   },
   "author": "",
   "license": "MIT",
@@ -25,8 +27,9 @@
     "express": "^4.18.2",
     "handlebars": "^4.7.7",
     "joi": "^17.7.0",
-    "puppeteer": "19.2.0",
-    "puppeteer-core": "19.2.0",
+    "netlify-lambda": "^2.0.15",
+    "puppeteer": "^19.2.0",
+    "puppeteer-core": "^19.2.0",
     "serverless-http": "^3.1.0",
     "uuid": "^9.0.0"
   }
