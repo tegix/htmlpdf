@@ -4,8 +4,8 @@
   "description": "generate pdf of html",
   "main": "server.js",
   "scripts": {
-    "build-dev": "tsc && javascript-obfuscator dist/ --output build/",
-    "build-netlify": "tsc && javascript-obfuscator dist/ --output functions/",
+    "build-dev": "tsc && javascript-obfuscator meta/ --output build/",
+    "build-netlify": "tsc && javascript-obfuscator meta/ --output functions/",
     "dev": "nodemon ./src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
