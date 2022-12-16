@@ -217,7 +217,7 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/node,windows,macos,linux
 package-lock.json
-*.html
+./index.html
 .vscode
 src
 obfuscator.options.json
